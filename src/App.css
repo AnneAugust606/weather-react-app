@@ -1,11 +1,11 @@
 body {
-  font-family: "Comfortaa", cursive;
-  color: #01d65d;
-  text-shadow: 3px 4px 5px #001722;
+  font-family: "Kalam", cursive;
+  color: #ffffff;
+  text-shadow: 3px 4px 5px #00172262;
   display: block;
   margin: 0 auto;
-  max-width: 575px;
-  padding-top: 20px;
+  max-width: 800px;
+  padding-top: 10px;
   padding-bottom: 20px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,27 +13,27 @@ body {
 h2 {
   display: block;
   padding-top: 10px;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bold;
 }
 h6 {
   text-align: center;
-  font-size: 15px;
+  font-size: 25px;
 }
 p {
   text-align: center;
-  font-size: 16px;
+  font-size: 20px;
   padding-top: 0;
   margin: 0;
 }
 a {
-  color: #8cc5a5;
+  color: #ffffff;
   cursor: pointer;
   transition: ease-in-out 200ms;
   font-size: 16px;
 }
 a:hover {
-  color: #01d65d;
+  color: #b4b4b4;
   text-decoration: none;
 }
 ul {
@@ -59,7 +59,13 @@ i {
 .card {
   display: block;
   text-align: center;
-  background-image: linear-gradient(180deg, #00273a, 30%, #135c86);
+  background: linear-gradient(
+    to top,
+    #0c3483 0%,
+    #a2b6df 100%,
+    #6b8cce 100%,
+    #a2b6df 100%
+  );
   border-radius: 20px;
   border-width: 5px;
   border-color: rgb(113, 143, 182);
