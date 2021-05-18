@@ -9,14 +9,15 @@ import "./Weather.css";
 export default function Weather(props) {
   return (
     <div className="Weather">
-      <p>
-        <FormattedDate date={props.data.date} />
-      </p>
       <h2 className="City">
         {props.data.city}, {props.data.country}
       </h2>
+      <p className="date">
+        <FormattedDate date={props.data.date} />
+      </p>
+
       <Icon icon={props.data.icon} size={85} />
-      <p className="description">{props.data.description}</p>
+      <p className="description date">{props.data.description}</p>
 
       <div className="temperature">
         <p>
