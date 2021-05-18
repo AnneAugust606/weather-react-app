@@ -7,7 +7,7 @@ export default function Footer() {
   return (
     <div className="footer">
       <small>
-        Coded by Laura Gumienik |{" "}
+        Coded by Gretchyn Hickman |{" "}
         <a
           className="github-ref"
           href="https://github.com/laura-g56/weather-react"

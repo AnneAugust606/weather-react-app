@@ -27,18 +27,6 @@ export default function Weather(props) {
           />
         </p>
       </div>
-
-      <div className="extras">
-        <ul>
-          <li>
-            Wind: <span>{props.data.wind}km/h</span>
-          </li>
-          <li>
-            Humidity: <span>{props.data.humidity}%</span>
-          </li>
-          <li>{/* <Rain /> */}</li>
-        </ul>
-      </div>
     </div>
   );
 }

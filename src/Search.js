@@ -70,7 +70,6 @@ export default function Search(props) {
                 onChange={handleCityChange}
               />
               <button className="search-icon">
-                <i className="fa fa-search" aria-hidden="true"></i>
               </button>
               <button className="location-icon" onClick={fetchLocation}>
                 <i className="fas fa-map-marker-alt" aria-hidden="true"></i>

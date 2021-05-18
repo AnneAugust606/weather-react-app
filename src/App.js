@@ -10,7 +10,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <div className="card">
-          <Search defaultCity="Geelong" />
+          <Search defaultCity="Salt Lake City" />
           <Footer />
         </div>
       </div>
