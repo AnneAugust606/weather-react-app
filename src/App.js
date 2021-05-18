@@ -1,14 +1,19 @@
-import logo from "./logo.svg";
+import React from "react";
+
+import Search from "./Search";
+import Footer from "./Footer";
+
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>Edit</p>
-      </header>
+      <div className="container">
+        <div className="card">
+          <Search defaultCity="Geelong" />
+          <Footer />
+        </div>
+      </div>
     </div>
   );
 }
-
-export default App;
